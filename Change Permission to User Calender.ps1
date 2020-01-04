@@ -12,7 +12,7 @@ $Session = New-PSSession -ConnectionUri https://outlook.office365.com/powershell
 -Authentication Basic -AllowRedirection
 Import-PSSession $Session
 
-Add-MailboxFolderPermission -Identity t.topaz@paltopdental.com:\calendar -user i.kedem@paltopdental.com -AccessRights Editor
+Add-MailboxFolderPermission -Identity username@domain.com:\calendar -user username2@domain.com.com -AccessRights Editor
 
 $confirmation = Read-Host -Prompt 'would you like to continue y/n ?'
 if ($confirmation -eq 'y') {
