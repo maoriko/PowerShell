@@ -3,7 +3,7 @@
 # Date of creation : 03/10/2019
 # Purpose of script: Transfer all Domain to another primary Domain
 # Version: 1.1.1
-# Contact info: Maorp@restartit.co.il
+# Contact info: Maor.paz@pc4us.co.il
 ###################################################################
 
 # Enable execution policy:
